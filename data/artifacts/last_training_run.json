@@ -1,12 +1,12 @@
 {
-  "version": "v0040",
+  "version": "v0041",
   "best_model": "ridge",
-  "test_rmse": 8.653,
-  "test_mae": 7.128,
-  "test_r2": 0.3319,
-  "baseline_rmse": 14.122,
-  "improvement_over_baseline_pct": 38.7,
+  "test_rmse": 8.762,
+  "test_mae": 7.155,
+  "test_r2": 0.3554,
+  "baseline_rmse": 14.445,
+  "improvement_over_baseline_pct": 39.3,
   "models_trained": 7,
-  "duration_s": 332.1,
+  "duration_s": 320.0,
   "registry": "local"
 }
