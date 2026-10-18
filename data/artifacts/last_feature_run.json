@@ -1,26 +1,15 @@
 {
-  "run_at": "2026-10-18T13:02:11.458809+00:00",
-  "duration_s": 1.51,
+  "run_at": "2026-10-18T17:07:25.061378+00:00",
+  "duration_s": 0.99,
   "source_configured": "openmeteo",
   "source_effective": "openmeteo",
   "feature_store": "local",
   "raw_rows": 168,
   "feature_rows_written": 96,
   "feature_count": 138,
-  "window_start": "2026-10-14 14:00:00+00:00",
-  "window_end": "2026-10-18 13:00:00+00:00",
-  "latest_aqi": 150.0,
-  "dominant_pollutant": "o3",
-  "alert": {
-    "kind": "observation",
-    "aqi": 150.0,
-    "category": "Unhealthy for Sensitive Groups",
-    "severity": 2,
-    "horizon_hours": null,
-    "when": "2026-10-18 13:00:00+00:00",
-    "threshold": 150,
-    "message": "\ud83d\udfe0 Karachi: AQI 150 (Unhealthy for Sensitive Groups) right now",
-    "advice": "Children, older adults and people with heart/lung disease should reduce prolonged outdoor exertion.",
-    "raised_at": "2026-10-18T13:02:12.968592+00:00"
-  }
+  "window_start": "2026-10-14 18:00:00+00:00",
+  "window_end": "2026-10-18 17:00:00+00:00",
+  "latest_aqi": 122.0,
+  "dominant_pollutant": "pm2_5",
+  "alert": null
 }
