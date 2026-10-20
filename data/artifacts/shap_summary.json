@@ -6,128 +6,128 @@
   "top_features": [
     {
       "feature": "pm2_5",
-      "mean_abs_shap": 6.345679273128472,
+      "mean_abs_shap": 4.5123701702132815,
       "direction": "increases_aqi"
     },
     {
       "feature": "pm2_5_roll_mean_12h",
-      "mean_abs_shap": 1.2645851094978608,
-      "direction": "decreases_aqi"
-    },
-    {
-      "feature": "pm10",
-      "mean_abs_shap": 0.957429769729806,
+      "mean_abs_shap": 1.02419425917338,
       "direction": "decreases_aqi"
     },
     {
       "feature": "pm10_roll_mean_6h",
-      "mean_abs_shap": 0.6776781290767022,
+      "mean_abs_shap": 0.8360944430157377,
       "direction": "increases_aqi"
     },
     {
-      "feature": "dust",
-      "mean_abs_shap": 0.5711563114963425,
+      "feature": "aqi_roll_max_12h",
+      "mean_abs_shap": 0.6757632264204663,
       "direction": "increases_aqi"
     },
     {
-      "feature": "dust_lag_1h",
-      "mean_abs_shap": 0.49653304364981327,
-      "direction": "decreases_aqi"
-    },
-    {
-      "feature": "wind_speed_fut_24h",
-      "mean_abs_shap": 0.49350350806254745,
-      "direction": "decreases_aqi"
-    },
-    {
-      "feature": "o3_lag_24h",
-      "mean_abs_shap": 0.3963944492218693,
-      "direction": "decreases_aqi"
-    },
-    {
-      "feature": "ventilation_fut_48h",
-      "mean_abs_shap": 0.3889670885906204,
-      "direction": "neutral"
-    },
-    {
-      "feature": "dust_lag_24h",
-      "mean_abs_shap": 0.3349284395414012,
+      "feature": "pm2_5_roll_mean_72h",
+      "mean_abs_shap": 0.66832660812884,
       "direction": "increases_aqi"
     },
     {
       "feature": "boundary_layer_height_fut_24h",
-      "mean_abs_shap": 0.3314204700314401,
+      "mean_abs_shap": 0.6119257946629699,
       "direction": "decreases_aqi"
     },
     {
-      "feature": "no2",
-      "mean_abs_shap": 0.3303041006602881,
+      "feature": "dust",
+      "mean_abs_shap": 0.5041803829610431,
       "direction": "increases_aqi"
     },
     {
       "feature": "no2_lag_1h",
-      "mean_abs_shap": 0.32927493432289345,
+      "mean_abs_shap": 0.5010469733769918,
       "direction": "decreases_aqi"
     },
     {
-      "feature": "pm2_5_roll_mean_72h",
-      "mean_abs_shap": 0.32009119106882883,
+      "feature": "dust_lag_24h",
+      "mean_abs_shap": 0.476958016778515,
       "direction": "increases_aqi"
     },
     {
-      "feature": "no2_lag_2h",
-      "mean_abs_shap": 0.3096060572582084,
+      "feature": "humidity",
+      "mean_abs_shap": 0.42412856893272105,
+      "direction": "increases_aqi"
+    },
+    {
+      "feature": "dust_lag_1h",
+      "mean_abs_shap": 0.4133134238408312,
       "direction": "decreases_aqi"
     },
     {
-      "feature": "pm2_5_lag_3h",
-      "mean_abs_shap": 0.29305619663269145,
-      "direction": "neutral"
-    },
-    {
-      "feature": "pm2_5_lag_2h",
-      "mean_abs_shap": 0.28572750101125755,
-      "direction": "increases_aqi"
-    },
-    {
-      "feature": "pm10_lag_1h",
-      "mean_abs_shap": 0.2778637093192749,
+      "feature": "wind_speed_fut_24h",
+      "mean_abs_shap": 0.39696203187222046,
       "direction": "decreases_aqi"
     },
     {
-      "feature": "aqi_roll_min_6h",
-      "mean_abs_shap": 0.2735903711196091,
-      "direction": "increases_aqi"
+      "feature": "pm10_roll_mean_72h",
+      "mean_abs_shap": 0.39179116259179253,
+      "direction": "decreases_aqi"
     },
     {
-      "feature": "pm10_roll_mean_12h",
-      "mean_abs_shap": 0.2674000201525652,
-      "direction": "increases_aqi"
-    },
-    {
-      "feature": "pm2_5_roll_mean_24h",
-      "mean_abs_shap": 0.26596135661070913,
-      "direction": "increases_aqi"
-    },
-    {
-      "feature": "aqi_roll_min_72h",
-      "mean_abs_shap": 0.26414414606922415,
-      "direction": "neutral"
-    },
-    {
-      "feature": "aqi_lag_24h",
-      "mean_abs_shap": 0.26290886569940214,
-      "direction": "increases_aqi"
+      "feature": "pm10",
+      "mean_abs_shap": 0.3867039662770212,
+      "direction": "decreases_aqi"
     },
     {
       "feature": "dust_lag_12h",
-      "mean_abs_shap": 0.26037950049840713,
+      "mean_abs_shap": 0.3105568446793399,
       "direction": "increases_aqi"
     },
     {
-      "feature": "o3_lag_3h",
-      "mean_abs_shap": 0.2551515160955198,
+      "feature": "aqi_lag_3h",
+      "mean_abs_shap": 0.26816704023427873,
+      "direction": "neutral"
+    },
+    {
+      "feature": "boundary_layer_height_lag_2h",
+      "mean_abs_shap": 0.26058795151861947,
+      "direction": "decreases_aqi"
+    },
+    {
+      "feature": "pm10_lag_3h",
+      "mean_abs_shap": 0.2595167710750535,
+      "direction": "neutral"
+    },
+    {
+      "feature": "dust_lag_2h",
+      "mean_abs_shap": 0.2593290687508158,
+      "direction": "decreases_aqi"
+    },
+    {
+      "feature": "dust_lag_72h",
+      "mean_abs_shap": 0.25556243896342157,
+      "direction": "decreases_aqi"
+    },
+    {
+      "feature": "aqi_lag_24h",
+      "mean_abs_shap": 0.2473465286418133,
       "direction": "increases_aqi"
+    },
+    {
+      "feature": "aqi_roll_mean_12h",
+      "mean_abs_shap": 0.24409484434457612,
+      "direction": "neutral"
+    },
+    {
+      "feature": "no2",
+      "mean_abs_shap": 0.2429432648269846,
+      "direction": "increases_aqi"
+    },
+    {
+      "feature": "pm10_lag_72h",
+      "mean_abs_shap": 0.23792764198774863,
+      "direction": "increases_aqi"
+    },
+    {
+      "feature": "o3_lag_24h",
+      "mean_abs_shap": 0.2345996249971462,
+      "direction": "decreases_aqi"
     }
   ]
 }
