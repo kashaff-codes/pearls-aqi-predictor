@@ -5,7 +5,7 @@
     "lat": 24.8607,
     "lon": 67.0011
   },
-  "generated_at": "2026-10-24T05:28:55.838840+00:00",
+  "generated_at": "2026-10-24T07:38:06.061202+00:00",
   "as_of": "2026-10-24T05:00:00+00:00",
   "current": {
     "aqi": 87.0,
@@ -24,48 +24,48 @@
       "horizon_days": 1,
       "valid_at": "2026-10-25T05:00:00+00:00",
       "aqi": 94.1,
-      "aqi_lower": 79.7,
-      "aqi_upper": 108.5,
+      "aqi_lower": 79.4,
+      "aqi_upper": 108.8,
       "interval": "80%",
       "category": "Moderate",
       "color": "#ffff00",
       "advice": "Unusually sensitive people should consider limiting prolonged exertion outdoors.",
-      "model_rmse": 11.23
+      "model_rmse": 11.44
     },
     {
       "horizon_hours": 48,
       "horizon_days": 2,
       "valid_at": "2026-10-26T05:00:00+00:00",
-      "aqi": 102.8,
-      "aqi_lower": 82.1,
-      "aqi_upper": 123.4,
+      "aqi": 103.8,
+      "aqi_lower": 82.7,
+      "aqi_upper": 124.9,
       "interval": "80%",
       "category": "Unhealthy for Sensitive Groups",
       "color": "#ff7e00",
       "advice": "Children, older adults and people with heart/lung disease should reduce prolonged outdoor exertion.",
-      "model_rmse": 16.11
+      "model_rmse": 16.48
     },
     {
       "horizon_hours": 72,
       "horizon_days": 3,
       "valid_at": "2026-10-27T05:00:00+00:00",
-      "aqi": 101.7,
-      "aqi_lower": 79.9,
-      "aqi_upper": 123.5,
+      "aqi": 101.2,
+      "aqi_lower": 79.4,
+      "aqi_upper": 123.0,
       "interval": "80%",
       "category": "Unhealthy for Sensitive Groups",
       "color": "#ff7e00",
       "advice": "Children, older adults and people with heart/lung disease should reduce prolonged outdoor exertion.",
-      "model_rmse": 17.01
+      "model_rmse": 17.03
     }
   ],
   "model": {
     "name": "ridge",
-    "version": "v0049",
-    "trained_at": "2026-10-23T07:50:26.019201+00:00",
-    "rmse": 15.001825159322914,
-    "mae": 11.417938167024557,
-    "r2": 0.44377515639630066
+    "version": "v0050",
+    "trained_at": "2026-10-24T07:32:22.775727+00:00",
+    "rmse": 15.194496718364485,
+    "mae": 11.58626440595321,
+    "r2": 0.4281411161576096
   },
   "alerts": [],
   "data_source": "openmeteo"
