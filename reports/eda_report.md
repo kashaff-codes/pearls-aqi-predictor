@@ -1,7 +1,7 @@
 # Exploratory Data Analysis -- Karachi AQI
 
-_Generated 2026-10-26 08:06 UTC from 9,858 hourly
-observations spanning 415.5 days (2025-09-05 to 2026-10-26,
+_Generated 2026-10-27 08:17 UTC from 9,886 hourly
+observations spanning 416.6 days (2025-09-05 to 2026-10-27,
 98.9% hourly coverage)._
 
 ## 1. Air quality profile
@@ -9,8 +9,8 @@ observations spanning 415.5 days (2025-09-05 to 2026-10-26,
 | Statistic | Value |
 | --- | --- |
 | Mean AQI | 89.0 |
-| Median AQI | 83.0 |
-| Std. deviation | 21.8 |
+| Median AQI | 84.0 |
+| Std. deviation | 21.7 |
 | 95th percentile | 135.0 |
 | Range | 41.0 -- 165.0 |
 | Hours at or above the alert threshold (150) | 236 (2.4%) |
@@ -18,7 +18,7 @@ observations spanning 415.5 days (2025-09-05 to 2026-10-26,
 | Missing raw pollutant readings | 0.0% |
 
 The distribution is right-skewed: typical conditions sit near the median of
-83.0, but the tail reaches 165.0. That skew is why the
+84.0, but the tail reaches 165.0. That skew is why the
 neural networks are trained with a Huber loss rather than MSE -- the rare severe
 episodes are exactly the ones a forecast needs to get right, and a squared loss
 lets them dominate the gradient.
@@ -44,9 +44,9 @@ lets them dominate the gradient.
 | 3 h | 0.953 |
 | 12 h | 0.847 |
 | 24 h | 0.727 |
-| 48 h | 0.567 |
+| 48 h | 0.566 |
 | 72 h | 0.462 |
-| 168 h | 0.341 |
+| 168 h | 0.342 |
 
 Correlation stays materially above zero out to 72 hours, and there is a local
 bump at 24 h from the daily cycle. Both observations are baked directly into the
@@ -59,14 +59,14 @@ and the dashboard shows that widening uncertainty band rather than hiding it.
 
 | Variable | Correlation with AQI |
 | --- | --- |
-| `pm2_5` | +0.728 |
+| `pm2_5` | +0.727 |
 | `so2` | +0.550 |
-| `pressure` | +0.495 |
+| `pressure` | +0.496 |
 | `co` | +0.483 |
 | `wind_speed` | -0.421 |
 | `no2` | +0.401 |
-| `humidity` | -0.364 |
-| `temperature` | -0.304 |
+| `humidity` | -0.365 |
+| `temperature` | -0.303 |
 
 Wind speed is the dominant meteorological control: stagnant air traps
 particulates near the surface. That relationship motivates the `stagnation`
