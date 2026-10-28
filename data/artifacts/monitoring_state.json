@@ -1,11 +1,11 @@
 {
   "model_name": "gradient_boosting",
-  "model_rmse": 15.617426597928713,
-  "model_mae": 12.47361056051466,
-  "model_r2": 0.3245332365699189,
-  "updated_at": "2026-10-28T04:31:21.583506+00:00",
-  "training_last_success": "2026-10-27T08:17:16.204027+00:00",
-  "training_last_duration_s": 211.8,
+  "model_rmse": 15.626544118674925,
+  "model_mae": 12.167046605475619,
+  "model_r2": 0.29280861262041463,
+  "updated_at": "2026-10-28T08:57:48.046445+00:00",
+  "training_last_success": "2026-10-28T08:57:48.046349+00:00",
+  "training_last_duration_s": 314.1,
   "feature_last_success": "2026-10-28T04:31:21.583275+00:00",
   "feature_last_duration_s": 1.4
 }

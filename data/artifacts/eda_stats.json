@@ -1,9 +1,9 @@
 {
-  "rows": 9886,
-  "span_days": 416.6,
+  "rows": 9907,
+  "span_days": 417.5,
   "coverage_pct": 98.9,
   "start": "2025-09-05 16:00:00+00:00",
-  "end": "2026-10-27 07:00:00+00:00",
+  "end": "2026-10-28 04:00:00+00:00",
   "aqi_mean": 89.0,
   "aqi_median": 84.0,
   "aqi_std": 21.7,
@@ -13,7 +13,7 @@
   "unhealthy_hours": 236,
   "unhealthy_pct": 2.4,
   "category_distribution": {
-    "Moderate": 7522,
+    "Moderate": 7543,
     "Unhealthy for Sensitive Groups": 2121,
     "Unhealthy": 222,
     "Good": 21
@@ -22,7 +22,7 @@
   "peak_hour": 18,
   "peak_hour_aqi": 93.7,
   "cleanest_hour": 23,
-  "cleanest_hour_aqi": 88.1,
+  "cleanest_hour_aqi": 88.2,
   "worst_weekday": 6,
   "worst_month": 11,
   "worst_month_aqi": 114.2,
