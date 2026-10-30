@@ -5,7 +5,7 @@
     "lat": 24.8607,
     "lon": 67.0011
   },
-  "generated_at": "2026-10-30T08:12:33.394807+00:00",
+  "generated_at": "2026-10-30T08:58:20.596714+00:00",
   "as_of": "2026-10-30T08:00:00+00:00",
   "current": {
     "aqi": 122.0,
@@ -24,48 +24,48 @@
       "horizon_days": 1,
       "valid_at": "2026-10-31T08:00:00+00:00",
       "aqi": 104.7,
-      "aqi_lower": 89.0,
-      "aqi_upper": 120.5,
+      "aqi_lower": 88.8,
+      "aqi_upper": 120.6,
       "interval": "80%",
       "category": "Unhealthy for Sensitive Groups",
       "color": "#ff7e00",
       "advice": "Children, older adults and people with heart/lung disease should reduce prolonged outdoor exertion.",
-      "model_rmse": 12.31
+      "model_rmse": 12.4
     },
     {
       "horizon_hours": 48,
       "horizon_days": 2,
       "valid_at": "2026-11-01T08:00:00+00:00",
-      "aqi": 110.5,
-      "aqi_lower": 90.6,
-      "aqi_upper": 130.4,
+      "aqi": 112.3,
+      "aqi_lower": 92.1,
+      "aqi_upper": 132.4,
       "interval": "80%",
       "category": "Unhealthy for Sensitive Groups",
       "color": "#ff7e00",
       "advice": "Children, older adults and people with heart/lung disease should reduce prolonged outdoor exertion.",
-      "model_rmse": 15.5
+      "model_rmse": 15.72
     },
     {
       "horizon_hours": 72,
       "horizon_days": 3,
       "valid_at": "2026-11-02T08:00:00+00:00",
-      "aqi": 100.0,
-      "aqi_lower": 78.2,
-      "aqi_upper": 121.7,
+      "aqi": 102.2,
+      "aqi_lower": 81.0,
+      "aqi_upper": 123.4,
       "interval": "80%",
-      "category": "Moderate",
-      "color": "#ffff00",
-      "advice": "Unusually sensitive people should consider limiting prolonged exertion outdoors.",
-      "model_rmse": 16.99
+      "category": "Unhealthy for Sensitive Groups",
+      "color": "#ff7e00",
+      "advice": "Children, older adults and people with heart/lung disease should reduce prolonged outdoor exertion.",
+      "model_rmse": 16.52
     }
   ],
   "model": {
     "name": "gradient_boosting",
-    "version": "v0055",
-    "trained_at": "2026-10-29T08:46:18.500317+00:00",
-    "rmse": 15.06065000876826,
-    "mae": 11.620625613261481,
-    "r2": 0.31701274168176896
+    "version": "v0056",
+    "trained_at": "2026-10-30T08:52:37.114935+00:00",
+    "rmse": 14.989038740011539,
+    "mae": 11.6344523250244,
+    "r2": 0.311942939887297
   },
   "alerts": [],
   "data_source": "openmeteo"
