@@ -1,12 +1,12 @@
 {
-  "version": "v0057",
+  "version": "v0058",
   "best_model": "gradient_boosting",
-  "test_rmse": 15.282,
-  "test_mae": 11.729,
-  "test_r2": 0.2791,
-  "baseline_rmse": 20.237,
-  "improvement_over_baseline_pct": 24.5,
+  "test_rmse": 16.043,
+  "test_mae": 12.586,
+  "test_r2": 0.2009,
+  "baseline_rmse": 20.918,
+  "improvement_over_baseline_pct": 23.3,
   "models_trained": 7,
-  "duration_s": 221.4,
+  "duration_s": 210.8,
   "registry": "local"
 }
