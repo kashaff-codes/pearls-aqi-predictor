@@ -5,7 +5,7 @@
     "lat": 24.8607,
     "lon": 67.0011
   },
-  "generated_at": "2026-11-08T04:55:27.005351+00:00",
+  "generated_at": "2026-11-08T09:26:16.890867+00:00",
   "as_of": "2026-11-08T04:00:00+00:00",
   "current": {
     "aqi": 75.0,
@@ -23,49 +23,49 @@
       "horizon_hours": 24,
       "horizon_days": 1,
       "valid_at": "2026-11-09T04:00:00+00:00",
-      "aqi": 79.0,
-      "aqi_lower": 60.4,
-      "aqi_upper": 97.5,
+      "aqi": 84.4,
+      "aqi_lower": 65.6,
+      "aqi_upper": 103.3,
       "interval": "80%",
       "category": "Moderate",
       "color": "#ffff00",
       "advice": "Unusually sensitive people should consider limiting prolonged exertion outdoors.",
-      "model_rmse": 14.45
+      "model_rmse": 14.7
     },
     {
       "horizon_hours": 48,
       "horizon_days": 2,
       "valid_at": "2026-11-10T04:00:00+00:00",
-      "aqi": 95.9,
-      "aqi_lower": 73.8,
-      "aqi_upper": 118.0,
+      "aqi": 104.1,
+      "aqi_lower": 84.3,
+      "aqi_upper": 124.0,
       "interval": "80%",
-      "category": "Moderate",
-      "color": "#ffff00",
-      "advice": "Unusually sensitive people should consider limiting prolonged exertion outdoors.",
-      "model_rmse": 17.23
+      "category": "Unhealthy for Sensitive Groups",
+      "color": "#ff7e00",
+      "advice": "Children, older adults and people with heart/lung disease should reduce prolonged outdoor exertion.",
+      "model_rmse": 15.48
     },
     {
       "horizon_hours": 72,
       "horizon_days": 3,
       "valid_at": "2026-11-11T04:00:00+00:00",
-      "aqi": 108.7,
-      "aqi_lower": 86.8,
-      "aqi_upper": 130.7,
+      "aqi": 108.9,
+      "aqi_lower": 87.2,
+      "aqi_upper": 130.6,
       "interval": "80%",
       "category": "Unhealthy for Sensitive Groups",
       "color": "#ff7e00",
       "advice": "Children, older adults and people with heart/lung disease should reduce prolonged outdoor exertion.",
-      "model_rmse": 17.14
+      "model_rmse": 16.92
     }
   ],
   "model": {
-    "name": "gradient_boosting",
-    "version": "v0064",
-    "trained_at": "2026-11-07T09:04:29.627529+00:00",
-    "rmse": 16.323046424198733,
-    "mae": 13.325067865132759,
-    "r2": 0.034317286800360614
+    "name": "xgboost",
+    "version": "v0065",
+    "trained_at": "2026-11-08T09:20:46.743024+00:00",
+    "rmse": 15.726098206760383,
+    "mae": 12.790552199832979,
+    "r2": 0.052196703182719
   },
   "alerts": [],
   "data_source": "openmeteo"
