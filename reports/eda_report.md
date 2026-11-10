@@ -1,7 +1,7 @@
 # Exploratory Data Analysis -- Karachi AQI
 
-_Generated 2026-11-09 10:12 UTC from 10,200 hourly
-observations spanning 429.7 days (2025-09-05 to 2026-11-09,
+_Generated 2026-11-10 10:18 UTC from 10,218 hourly
+observations spanning 430.5 days (2025-09-05 to 2026-11-10,
 98.9% hourly coverage)._
 
 ## 1. Air quality profile
@@ -10,7 +10,7 @@ observations spanning 429.7 days (2025-09-05 to 2026-11-09,
 | --- | --- |
 | Mean AQI | 89.3 |
 | Median AQI | 84.0 |
-| Std. deviation | 21.7 |
+| Std. deviation | 21.6 |
 | 95th percentile | 134.0 |
 | Range | 41.0 -- 165.0 |
 | Hours at or above the alert threshold (150) | 236 (2.3%) |
@@ -26,15 +26,15 @@ lets them dominate the gradient.
 ## 2. Temporal structure
 
 * **Daily cycle.** AQI peaks around **18:00 local**
-  (94.2) and bottoms out at **23:00 local**
+  (94.1) and bottoms out at **23:00 local**
   (88.4) -- a swing of
-  5.8 AQI points. Hour-of-day is
+  5.7 AQI points. Hour-of-day is
   therefore encoded cyclically (sin/cos) so that 23:00 and 00:00 sit next to each
   other in feature space.
 * **Weekly cycle.** Sunday is the worst day on average,
   consistent with a traffic-driven component.
 * **Seasonal cycle.** November is the dirtiest month
-  (109.4) and August the cleanest.
+  (108.8) and August the cleanest.
 
 ## 3. Autocorrelation -- the case for the lag window
 
@@ -61,12 +61,12 @@ and the dashboard shows that widening uncertainty band rather than hiding it.
 | --- | --- |
 | `pm2_5` | +0.722 |
 | `so2` | +0.547 |
-| `pressure` | +0.493 |
-| `co` | +0.478 |
-| `wind_speed` | -0.419 |
-| `no2` | +0.399 |
-| `humidity` | -0.367 |
-| `temperature` | -0.288 |
+| `pressure` | +0.491 |
+| `co` | +0.477 |
+| `wind_speed` | -0.418 |
+| `no2` | +0.397 |
+| `humidity` | -0.366 |
+| `temperature` | -0.287 |
 
 Wind speed is the dominant meteorological control: stagnant air traps
 particulates near the surface. That relationship motivates the `stagnation`
