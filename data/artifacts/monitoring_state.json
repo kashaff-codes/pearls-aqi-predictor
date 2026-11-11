@@ -3,9 +3,9 @@
   "model_rmse": 16.272774726226654,
   "model_mae": 13.817473754680977,
   "model_r2": -0.14273622070729183,
-  "updated_at": "2026-11-11T09:51:04.833372+00:00",
+  "updated_at": "2026-11-11T17:00:13.452720+00:00",
   "training_last_success": "2026-11-11T09:51:04.833290+00:00",
   "training_last_duration_s": 375.2,
-  "feature_last_success": "2026-11-11T08:57:26.835024+00:00",
-  "feature_last_duration_s": 0.82
+  "feature_last_success": "2026-11-11T17:00:13.452586+00:00",
+  "feature_last_duration_s": 1.45
 }
