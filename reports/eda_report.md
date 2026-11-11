@@ -1,14 +1,14 @@
 # Exploratory Data Analysis -- Karachi AQI
 
-_Generated 2026-11-10 10:18 UTC from 10,218 hourly
-observations spanning 430.5 days (2025-09-05 to 2026-11-10,
+_Generated 2026-11-11 09:51 UTC from 10,247 hourly
+observations spanning 431.7 days (2025-09-05 to 2026-11-11,
 98.9% hourly coverage)._
 
 ## 1. Air quality profile
 
 | Statistic | Value |
 | --- | --- |
-| Mean AQI | 89.3 |
+| Mean AQI | 89.2 |
 | Median AQI | 84.0 |
 | Std. deviation | 21.6 |
 | 95th percentile | 134.0 |
@@ -26,14 +26,14 @@ lets them dominate the gradient.
 ## 2. Temporal structure
 
 * **Daily cycle.** AQI peaks around **18:00 local**
-  (94.1) and bottoms out at **23:00 local**
-  (88.4) -- a swing of
-  5.7 AQI points. Hour-of-day is
+  (94.1) and bottoms out at **10:00 local**
+  (88.3) -- a swing of
+  5.8 AQI points. Hour-of-day is
   therefore encoded cyclically (sin/cos) so that 23:00 and 00:00 sit next to each
   other in feature space.
 * **Weekly cycle.** Sunday is the worst day on average,
   consistent with a traffic-driven component.
-* **Seasonal cycle.** November is the dirtiest month
+* **Seasonal cycle.** December is the dirtiest month
   (108.8) and August the cleanest.
 
 ## 3. Autocorrelation -- the case for the lag window
@@ -46,7 +46,7 @@ lets them dominate the gradient.
 | 24 h | 0.726 |
 | 48 h | 0.564 |
 | 72 h | 0.461 |
-| 168 h | 0.335 |
+| 168 h | 0.334 |
 
 Correlation stays materially above zero out to 72 hours, and there is a local
 bump at 24 h from the daily cycle. Both observations are baked directly into the
@@ -59,14 +59,14 @@ and the dashboard shows that widening uncertainty band rather than hiding it.
 
 | Variable | Correlation with AQI |
 | --- | --- |
-| `pm2_5` | +0.722 |
+| `pm2_5` | +0.723 |
 | `so2` | +0.547 |
-| `pressure` | +0.491 |
-| `co` | +0.477 |
-| `wind_speed` | -0.418 |
-| `no2` | +0.397 |
+| `pressure` | +0.488 |
+| `co` | +0.476 |
+| `wind_speed` | -0.415 |
+| `no2` | +0.395 |
 | `humidity` | -0.366 |
-| `temperature` | -0.287 |
+| `temperature` | -0.286 |
 
 Wind speed is the dominant meteorological control: stagnant air traps
 particulates near the surface. That relationship motivates the `stagnation`
