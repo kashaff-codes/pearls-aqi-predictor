@@ -1,12 +1,12 @@
 {
-  "version": "v0069",
+  "version": "v0070",
   "best_model": "tf_lstm",
-  "test_rmse": 14.864,
-  "test_mae": 12.481,
-  "test_r2": 0.0986,
-  "baseline_rmse": 17.528,
-  "improvement_over_baseline_pct": 15.2,
+  "test_rmse": 15.632,
+  "test_mae": 13.141,
+  "test_r2": 0.07,
+  "baseline_rmse": 17.02,
+  "improvement_over_baseline_pct": 8.2,
   "models_trained": 7,
-  "duration_s": 320.4,
+  "duration_s": 357.3,
   "registry": "local"
 }
