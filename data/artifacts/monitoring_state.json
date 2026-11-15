@@ -1,11 +1,11 @@
 {
   "model_name": "tf_lstm",
-  "model_rmse": 15.485488593400868,
-  "model_mae": 12.879536497529854,
-  "model_r2": 0.1225908883031435,
-  "updated_at": "2026-11-14T23:42:49.556257+00:00",
-  "training_last_success": "2026-11-14T09:20:16.754870+00:00",
-  "training_last_duration_s": 265.5,
+  "model_rmse": 15.499615480726021,
+  "model_mae": 12.944180150511402,
+  "model_r2": 0.14171983910563413,
+  "updated_at": "2026-11-15T09:49:51.563946+00:00",
+  "training_last_success": "2026-11-15T09:49:51.563886+00:00",
+  "training_last_duration_s": 245.2,
   "feature_last_success": "2026-11-14T23:42:49.556154+00:00",
   "feature_last_duration_s": 0.84
 }
