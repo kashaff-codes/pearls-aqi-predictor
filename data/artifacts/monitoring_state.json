@@ -1,11 +1,11 @@
 {
-  "model_name": "tf_lstm",
-  "model_rmse": 15.540814692954811,
-  "model_mae": 13.121748979760225,
-  "model_r2": 0.11079625622912226,
-  "updated_at": "2026-11-17T08:52:28.203661+00:00",
-  "training_last_success": "2026-11-16T10:07:31.712324+00:00",
-  "training_last_duration_s": 295.0,
+  "model_name": "ridge",
+  "model_rmse": 16.55523597006868,
+  "model_mae": 13.48520833013231,
+  "model_r2": -0.007926025496011882,
+  "updated_at": "2026-11-17T11:04:44.520282+00:00",
+  "training_last_success": "2026-11-17T11:04:44.520221+00:00",
+  "training_last_duration_s": 334.8,
   "feature_last_success": "2026-11-17T08:52:28.203569+00:00",
   "feature_last_duration_s": 0.6
 }
