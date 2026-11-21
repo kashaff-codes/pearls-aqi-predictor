@@ -1,11 +1,11 @@
 {
   "model_name": "ridge",
-  "model_rmse": 16.624243118559715,
-  "model_mae": 13.657706790051867,
-  "model_r2": 0.0424311465006327,
-  "updated_at": "2026-11-20T23:45:33.885593+00:00",
-  "training_last_success": "2026-11-20T10:22:47.753887+00:00",
-  "training_last_duration_s": 240.6,
+  "model_rmse": 16.725381829554788,
+  "model_mae": 13.734848068225375,
+  "model_r2": -0.008072335896745683,
+  "updated_at": "2026-11-21T10:08:45.840292+00:00",
+  "training_last_success": "2026-11-21T10:08:45.840218+00:00",
+  "training_last_duration_s": 289.1,
   "feature_last_success": "2026-11-20T23:45:33.885435+00:00",
   "feature_last_duration_s": 1.03
 }
