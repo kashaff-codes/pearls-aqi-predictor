@@ -1,19 +1,19 @@
 # Exploratory Data Analysis -- Karachi AQI
 
-_Generated 2026-11-21 10:08 UTC from 10,478 hourly
-observations spanning 441.3 days (2025-09-05 to 2026-11-20,
+_Generated 2026-11-22 10:09 UTC from 10,504 hourly
+observations spanning 442.4 days (2025-09-05 to 2026-11-22,
 98.9% hourly coverage)._
 
 ## 1. Air quality profile
 
 | Statistic | Value |
 | --- | --- |
-| Mean AQI | 89.3 |
+| Mean AQI | 89.4 |
 | Median AQI | 84.0 |
 | Std. deviation | 21.5 |
 | 95th percentile | 134.0 |
 | Range | 41.0 -- 165.0 |
-| Hours at or above the alert threshold (150) | 236 (2.3%) |
+| Hours at or above the alert threshold (150) | 236 (2.2%) |
 | Most frequent dominant pollutant | `pm2_5` |
 | Missing raw pollutant readings | 0.0% |
 
@@ -27,8 +27,8 @@ lets them dominate the gradient.
 
 * **Daily cycle.** AQI peaks around **18:00 local**
   (94.1) and bottoms out at **09:00 local**
-  (88.4) -- a swing of
-  5.7 AQI points. Hour-of-day is
+  (88.5) -- a swing of
+  5.6 AQI points. Hour-of-day is
   therefore encoded cyclically (sin/cos) so that 23:00 and 00:00 sit next to each
   other in feature space.
 * **Weekly cycle.** Sunday is the worst day on average,
@@ -43,10 +43,10 @@ lets them dominate the gradient.
 | 1 h | 0.991 |
 | 3 h | 0.952 |
 | 12 h | 0.844 |
-| 24 h | 0.723 |
+| 24 h | 0.722 |
 | 48 h | 0.561 |
 | 72 h | 0.456 |
-| 168 h | 0.326 |
+| 168 h | 0.325 |
 
 Correlation stays materially above zero out to 72 hours, and there is a local
 bump at 24 h from the daily cycle. Both observations are baked directly into the
@@ -60,13 +60,13 @@ and the dashboard shows that widening uncertainty band rather than hiding it.
 | Variable | Correlation with AQI |
 | --- | --- |
 | `pm2_5` | +0.719 |
-| `so2` | +0.545 |
-| `pressure` | +0.482 |
-| `co` | +0.466 |
-| `wind_speed` | -0.412 |
-| `no2` | +0.390 |
-| `humidity` | -0.365 |
-| `temperature` | -0.285 |
+| `so2` | +0.546 |
+| `pressure` | +0.484 |
+| `co` | +0.467 |
+| `wind_speed` | -0.413 |
+| `no2` | +0.391 |
+| `humidity` | -0.367 |
+| `temperature` | -0.286 |
 
 Wind speed is the dominant meteorological control: stagnant air traps
 particulates near the surface. That relationship motivates the `stagnation`

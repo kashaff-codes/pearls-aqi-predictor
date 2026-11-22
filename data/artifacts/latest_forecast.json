@@ -5,53 +5,53 @@
     "lat": 24.8607,
     "lon": 67.0011
   },
-  "generated_at": "2026-11-22T01:00:32.110508+00:00",
-  "as_of": "2026-11-22T01:00:00+00:00",
+  "generated_at": "2026-11-22T10:09:49.803332+00:00",
+  "as_of": "2026-11-22T10:00:00+00:00",
   "current": {
-    "aqi": 106.0,
+    "aqi": 102.0,
     "category": "Unhealthy for Sensitive Groups",
     "color": "#ff7e00",
     "dominant_pollutant": "pm2_5",
-    "pm2_5": 28.4,
-    "pm10": 29.2,
-    "temperature": 19.1,
-    "humidity": 41.0,
-    "wind_speed": 8.3
+    "pm2_5": 30.4,
+    "pm10": 32.4,
+    "temperature": 31.0,
+    "humidity": 17.0,
+    "wind_speed": 8.0
   },
   "forecast": [
     {
       "horizon_hours": 24,
       "horizon_days": 1,
-      "valid_at": "2026-11-23T01:00:00+00:00",
-      "aqi": 106.5,
-      "aqi_lower": 90.0,
-      "aqi_upper": 123.0,
+      "valid_at": "2026-11-23T10:00:00+00:00",
+      "aqi": 113.0,
+      "aqi_lower": 95.1,
+      "aqi_upper": 130.9,
       "interval": "80%",
       "category": "Unhealthy for Sensitive Groups",
       "color": "#ff7e00",
       "advice": "Children, older adults and people with heart/lung disease should reduce prolonged outdoor exertion.",
-      "model_rmse": 12.88
+      "model_rmse": 13.97
     },
     {
       "horizon_hours": 48,
       "horizon_days": 2,
-      "valid_at": "2026-11-24T01:00:00+00:00",
-      "aqi": 110.8,
-      "aqi_lower": 88.9,
-      "aqi_upper": 132.6,
+      "valid_at": "2026-11-24T10:00:00+00:00",
+      "aqi": 121.3,
+      "aqi_lower": 99.0,
+      "aqi_upper": 143.6,
       "interval": "80%",
       "category": "Unhealthy for Sensitive Groups",
       "color": "#ff7e00",
       "advice": "Children, older adults and people with heart/lung disease should reduce prolonged outdoor exertion.",
-      "model_rmse": 17.03
+      "model_rmse": 17.41
     },
     {
       "horizon_hours": 72,
       "horizon_days": 3,
-      "valid_at": "2026-11-25T01:00:00+00:00",
-      "aqi": 107.2,
-      "aqi_lower": 82.1,
-      "aqi_upper": 132.3,
+      "valid_at": "2026-11-25T10:00:00+00:00",
+      "aqi": 111.9,
+      "aqi_lower": 86.9,
+      "aqi_upper": 137.0,
       "interval": "80%",
       "category": "Unhealthy for Sensitive Groups",
       "color": "#ff7e00",
@@ -61,11 +61,11 @@
   ],
   "model": {
     "name": "ridge",
-    "version": "v0078",
-    "trained_at": "2026-11-21T10:03:56.718763+00:00",
-    "rmse": 16.725381829554788,
-    "mae": 13.734848068225375,
-    "r2": -0.008072335896745683
+    "version": "v0079",
+    "trained_at": "2026-11-22T10:05:58.987308+00:00",
+    "rmse": 17.13593815115186,
+    "mae": 14.037070155606342,
+    "r2": -0.09242397491842591
   },
   "alerts": [],
   "data_source": "openmeteo"
