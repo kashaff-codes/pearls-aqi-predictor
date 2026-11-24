@@ -5,67 +5,67 @@
     "lat": 24.8607,
     "lon": 67.0011
   },
-  "generated_at": "2026-11-23T11:08:56.828523+00:00",
-  "as_of": "2026-11-23T11:00:00+00:00",
+  "generated_at": "2026-11-24T12:55:05.183541+00:00",
+  "as_of": "2026-11-24T12:00:00+00:00",
   "current": {
-    "aqi": 116.0,
+    "aqi": 130.0,
     "category": "Unhealthy for Sensitive Groups",
     "color": "#ff7e00",
     "dominant_pollutant": "pm2_5",
-    "pm2_5": 21.1,
-    "pm10": 22.2,
-    "temperature": 30.4,
-    "humidity": 15.0,
-    "wind_speed": 3.5
+    "pm2_5": 43.2,
+    "pm10": 45.3,
+    "temperature": null,
+    "humidity": null,
+    "wind_speed": null
   },
   "forecast": [
     {
       "horizon_hours": 24,
       "horizon_days": 1,
-      "valid_at": "2026-11-24T11:00:00+00:00",
-      "aqi": 103.5,
-      "aqi_lower": 83.8,
-      "aqi_upper": 123.2,
+      "valid_at": "2026-11-25T12:00:00+00:00",
+      "aqi": 119.0,
+      "aqi_lower": 101.1,
+      "aqi_upper": 136.9,
       "interval": "80%",
       "category": "Unhealthy for Sensitive Groups",
       "color": "#ff7e00",
       "advice": "Children, older adults and people with heart/lung disease should reduce prolonged outdoor exertion.",
-      "model_rmse": 15.36
+      "model_rmse": 13.95
     },
     {
       "horizon_hours": 48,
       "horizon_days": 2,
-      "valid_at": "2026-11-25T11:00:00+00:00",
-      "aqi": 101.7,
-      "aqi_lower": 81.9,
-      "aqi_upper": 121.4,
+      "valid_at": "2026-11-26T12:00:00+00:00",
+      "aqi": 122.3,
+      "aqi_lower": 99.9,
+      "aqi_upper": 144.8,
       "interval": "80%",
       "category": "Unhealthy for Sensitive Groups",
       "color": "#ff7e00",
       "advice": "Children, older adults and people with heart/lung disease should reduce prolonged outdoor exertion.",
-      "model_rmse": 15.39
+      "model_rmse": 17.52
     },
     {
       "horizon_hours": 72,
       "horizon_days": 3,
-      "valid_at": "2026-11-26T11:00:00+00:00",
-      "aqi": 100.4,
-      "aqi_lower": 79.7,
-      "aqi_upper": 121.1,
+      "valid_at": "2026-11-27T12:00:00+00:00",
+      "aqi": 111.2,
+      "aqi_lower": 86.3,
+      "aqi_upper": 136.2,
       "interval": "80%",
       "category": "Unhealthy for Sensitive Groups",
       "color": "#ff7e00",
       "advice": "Children, older adults and people with heart/lung disease should reduce prolonged outdoor exertion.",
-      "model_rmse": 16.14
+      "model_rmse": 19.46
     }
   ],
   "model": {
-    "name": "tf_lstm",
-    "version": "v0080",
-    "trained_at": "2026-11-23T11:02:45.430383+00:00",
-    "rmse": 15.637477245953088,
-    "mae": 13.249930578564841,
-    "r2": 0.0427051771845894
+    "name": "ridge",
+    "version": "v0081",
+    "trained_at": "2026-11-24T12:49:15.772355+00:00",
+    "rmse": 17.131536866204076,
+    "mae": 14.101791785115728,
+    "r2": -0.16307637070865313
   },
   "alerts": [],
   "data_source": "openmeteo"
