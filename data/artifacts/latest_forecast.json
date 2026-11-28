@@ -5,67 +5,67 @@
     "lat": 24.8607,
     "lon": 67.0011
   },
-  "generated_at": "2026-11-27T22:32:07.443256+00:00",
-  "as_of": "2026-11-27T22:00:00+00:00",
+  "generated_at": "2026-11-28T10:49:25.501810+00:00",
+  "as_of": "2026-11-28T10:00:00+00:00",
   "current": {
-    "aqi": 87.0,
+    "aqi": 80.0,
     "category": "Moderate",
     "color": "#ffff00",
     "dominant_pollutant": "pm2_5",
-    "pm2_5": 23.2,
-    "pm10": 35.4,
-    "temperature": 21.2,
-    "humidity": 91.0,
-    "wind_speed": 7.9
+    "pm2_5": 14.2,
+    "pm10": 14.6,
+    "temperature": 30.9,
+    "humidity": 15.0,
+    "wind_speed": 7.3
   },
   "forecast": [
     {
       "horizon_hours": 24,
       "horizon_days": 1,
-      "valid_at": "2026-11-28T22:00:00+00:00",
-      "aqi": 94.1,
-      "aqi_lower": 77.0,
-      "aqi_upper": 111.3,
+      "valid_at": "2026-11-29T10:00:00+00:00",
+      "aqi": 85.0,
+      "aqi_lower": 67.9,
+      "aqi_upper": 102.1,
       "interval": "80%",
       "category": "Moderate",
       "color": "#ffff00",
       "advice": "Unusually sensitive people should consider limiting prolonged exertion outdoors.",
-      "model_rmse": 13.36
+      "model_rmse": 13.34
     },
     {
       "horizon_hours": 48,
       "horizon_days": 2,
-      "valid_at": "2026-11-29T22:00:00+00:00",
-      "aqi": 108.5,
-      "aqi_lower": 87.7,
-      "aqi_upper": 129.4,
-      "interval": "80%",
-      "category": "Unhealthy for Sensitive Groups",
-      "color": "#ff7e00",
-      "advice": "Children, older adults and people with heart/lung disease should reduce prolonged outdoor exertion.",
-      "model_rmse": 16.27
-    },
-    {
-      "horizon_hours": 72,
-      "horizon_days": 3,
-      "valid_at": "2026-11-30T22:00:00+00:00",
-      "aqi": 99.5,
-      "aqi_lower": 76.9,
-      "aqi_upper": 122.2,
+      "valid_at": "2026-11-30T10:00:00+00:00",
+      "aqi": 96.6,
+      "aqi_lower": 75.9,
+      "aqi_upper": 117.4,
       "interval": "80%",
       "category": "Moderate",
       "color": "#ffff00",
       "advice": "Unusually sensitive people should consider limiting prolonged exertion outdoors.",
-      "model_rmse": 17.69
+      "model_rmse": 16.19
+    },
+    {
+      "horizon_hours": 72,
+      "horizon_days": 3,
+      "valid_at": "2026-12-01T10:00:00+00:00",
+      "aqi": 105.5,
+      "aqi_lower": 83.0,
+      "aqi_upper": 128.0,
+      "interval": "80%",
+      "category": "Unhealthy for Sensitive Groups",
+      "color": "#ff7e00",
+      "advice": "Children, older adults and people with heart/lung disease should reduce prolonged outdoor exertion.",
+      "model_rmse": 17.57
     }
   ],
   "model": {
     "name": "ridge",
-    "version": "v0084",
-    "trained_at": "2026-11-27T11:13:07.394624+00:00",
-    "rmse": 15.875830009483675,
-    "mae": 12.777926419365969,
-    "r2": 0.27627246298694946
+    "version": "v0085",
+    "trained_at": "2026-11-28T10:44:50.669298+00:00",
+    "rmse": 15.798758066883222,
+    "mae": 12.726588683407238,
+    "r2": 0.28603630469834956
   },
   "alerts": [],
   "data_source": "openmeteo"
